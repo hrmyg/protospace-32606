@@ -49,7 +49,6 @@ ActiveRecord::Schema.define(version: 2020_12_14_055911) do
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.text "concept"
     t.index ["user_id"], name: "index_prototypes_on_user_id"
   end
 
